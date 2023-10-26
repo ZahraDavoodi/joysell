@@ -1,0 +1,51 @@
+
+.side-menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+   // width: 60px;
+    list-style-type: none;
+    background: #f32c52;
+    overflow: hidden;
+    transition: width .5s;
+    z-index:99999;
+    font-family:'Bkoodak';
+    text-align: right;
+}
+
+.side-menu:hover {
+    //width: 300px;
+}
+
+.side-menu li {
+    width: 300px;
+
+}
+
+.side-menu li span {
+    font-size: 2rem;
+    margin: 20px 30px 0 22px;
+}
+
+.side-menu li a {
+    display: block;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #FFF;
+    height: 60px;
+}
+
+.side-menu li a:hover
+ {
+    background: #14081d;
+    display: block;
+}
+.side-menu li:last-child a{
+    border-bottom: 1px solid rgba(255,255,255,0.5);
+}
+.has-child ul{
+    padding-right: 70px;
+}
